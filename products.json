@@ -1,0 +1,249 @@
+{ 
+  "HeaderSliders":[
+    {
+      "id":"h1",
+      "STitle":"Women Collection",
+      "Sheading":"NEW SEASONS",
+      "ImgSrc":"images/Slideimg1.webp"
+    },
+    {
+      "id":"h2",
+      "STitle":"Men New-Season",
+      "Sheading":"NEW ARRIVALS",
+      "ImgSrc":"images/Slideimg2.webp"
+    },
+    {
+      "id":"h1",
+      "STitle":"Men Collection",
+      "Sheading":"Jackets & Coats",
+      "ImgSrc":"images/Slideimg3.webp"
+    }
+  ],
+  "products":[
+    {
+      "id":1,
+      "PosterImg":"images/p1.jpg",
+      "Title":"Haki Erkek Oduncu Regular Gömlek",
+      "Category":"Men",
+      "MainPrice":"87.99",
+      "FromPrice":"109.99",
+      "comments":3,
+      "details":["The product on the mannequin is size M.","Model Measurements: Height: 1.90, Bust: 94 Waist: 76, Hips: 95","50% Cotton 50% Polyester","Regular Fit: It is a comfortable fit that does not hug the body."],
+      "stars":4,
+      "sizes":["S","M","L","XL","XXL"],
+      "imagesOfPr":["images/p1-type.jpg","images/p1-type2.jpg","images/p1-type3.jpg","images/p1.jpg"]
+    },
+    {
+      "id":2,
+      "PosterImg":"images/p3-type1.jpg",
+      "Title":"Lacivert Kuşaklı Elbise",
+      "Category":"Women",
+      "MainPrice":"99.99",
+      "FromPrice":"199.99",
+      "comments":6,
+      "details":["Model's Measurements: Height: 1.75, Bust: 80, Waist: 60, Hips: 88","The product on the mannequin is size S/36.","95% Polyester 5% Elastane, Woven Fabric","Length from Shoulder: 90 cm"],
+      "stars":5,
+      "sizes":["S","M","L","XL"],
+      "imagesOfPr":["images/p3-type1.jpg","images/p3-type2.jpg","images/p3-type3.jpg","images/p3.jpg"]
+    },
+    {
+      "id":3,
+      "PosterImg":"images/p4.jpg",
+      "Title":"Mavi Kadın Logo Baskılı Gri Sweatshirt",
+      "Category":"Women",
+      "MainPrice":"179.99",
+      "FromPrice":"299.00",
+      "comments":2,
+      "details":["Model's Measurements: Height: 1.75, Bust: 80, Waist: 60, Hips: 88","The product on the mannequin is size S/36.","95% Polyester 5% Elastane, Woven Fabric","Length from Shoulder: 90 cm"],
+      "stars":3,
+       "sizes":["XS","S","M","L","XL"],
+      "imagesOfPr":["images/p4-type1.jpg","images/p4-type2.jpg","images/p4-type3.jpg","images/p4-type4.jpg","images/p4.jpg"]
+    },
+    {
+      "id":4,
+      "PosterImg":"images/p5.jpg",
+      "Title":"GRIMELANGE  Erkek Gri Baskılı Bisiklet Yaka Oversize",
+      "Category":"Men",
+      "MainPrice":"95.99",
+      "FromPrice":"119.90",
+      "comments":1,
+      "details":["The product on the mannequin is size M.","Model Measurements: Height: 1.90, Bust: 94 Waist: 76, Hips: 95","50% Cotton 50% Polyester","Regular Fit: It is a comfortable fit that does not hug the body."],
+      "stars":2,
+      "sizes":["M","L","XL","XXL"],
+      "imagesOfPr":["images/p5-type1.jpg","images/p5-type2.jpg","images/p5-type3.jpg","images/p5.jpg"]
+    },
+    {
+      "id":5,
+      "PosterImg":"images/p2.jpg",
+      "Title":"MİLLA Siyah Çiçek Desenli Elbise",
+      "Category":"Women",
+      "MainPrice":"118.99",
+      "FromPrice":"168.99",
+      "comments":2,
+      "details":["Model's Measurements: Height: 1.75, Bust: 80, Waist: 60, Hips: 88","The product on the mannequin is size S/36.","95% Polyester 5% Elastane, Woven Fabric","Length from Shoulder: 90 cm"],
+      "stars":5,
+      "sizes":["S","M","L","XL"],
+      "imagesOfPr":["images/p2-type1.jpg","images/p2-type2.jpg","images/p2-type3.jpg","images/p2.jpg"]
+    },
+    {
+      "id":9,
+      "PosterImg":"images/p9.jpg",
+      "Title":"McDark Siyah Beyaz Spor Ayakkabı ",
+      "Category":"Shoes",
+      "MainPrice":"148.99",
+      "FromPrice":"308.99",
+      "comments":7,
+      "details":["100% Leather"," Genuine leather nubuck offers natural comfort and durability","Manmade sole"],
+      "stars":4,
+      "sizes":["40","42","44","46","48"],
+      "imagesOfPr":["images/p9-type1.jpg","images/p9-type2.jpg","images/p9-type3.jpg","images/p9.jpg"]
+    },
+
+    {
+      "id":6,
+      "PosterImg":"images/p6.jpg",
+      "Title":"Erkek Kahverengi-Lacivert Regular Fit 4 Drop Desenli Ceket",
+      "Category":"Men",
+      "MainPrice":"328.99",
+      "FromPrice":"548.99",
+      "comments":3,
+      "details":["The product on the mannequin is size M.","Model Measurements: Height: 1.90, Bust: 94 Waist: 76, Hips: 95","50% Cotton 50% Polyester","Regular Fit: It is a comfortable fit that does not hug the body."],
+      "stars":5,
+      "sizes":["S","M","L","XL","XXL"],
+      "imagesOfPr":["images/p6.jpg","images/p6-type1.jpg","images/p6-type2.jpg","images/p6-type3.jpg"]
+    },
+    {
+      "id":7,
+      "PosterImg":"images/p7.jpg",
+      "Title":"Indigo Basic Mini Denim Etek",
+      "Category":"Women",
+      "MainPrice":"111.99",
+      "FromPrice":"159.99",
+      "comments":5,
+      "details":["Model's Measurements: Height: 1.77, Bust: 80, Waist: 57, Hips: 87","100% Cotton, Woven Fabric","The product on the mannequin is size S/36.","Button and Zipper Closure, Basic"],
+      "stars":2,
+      "sizes":["S","M","XL"],
+      "imagesOfPr":["images/p7-type1.jpg","images/p7-type2.jpg","images/p7-type3.jpg","images/p7-type4.jpg","images/p7.jpg"]
+    },
+    {
+      "id":10,
+      "PosterImg":"images/p10.jpg",
+      "Title":"Tom Jones Erkek Kol Saati+Bileklik Hediye",
+      "Category":"Watches",
+      "MainPrice":"340.99",
+      "FromPrice":"400.00",
+      "comments":4,
+      "details":["Silver-tone 18 millimeters stainless steel expansion band fits up to 8-inch wrist circumference","Indiglo light-up watch dial","Water resistant to 30 meters (100 feet): In general, withstands splashes or brief immersion in water, but not suitable for swimming or bathing","Blue dial with day & date window at 3 o'clock; full Arabic numerals"],
+      "stars":4,
+      "sizes":["45mm","42mm","40mm","38mm"],
+      "imagesOfPr":["images/p10-type1.jpg","images/p10-type2.jpg","images/p10.jpg"]
+    },
+    
+    {
+      "id":8,
+      "PosterImg":"images/p8.jpg",
+      "Title":"GRIMELANGE Jorge Erkek Kiremit Düz Renk Kapüşonlu Comfort Sweatshirt",
+      "Category":"Men",
+      "MainPrice":"126.16",
+      "FromPrice":"135.96",
+      "comments":2,
+      "details":["The product on the mannequin is size M.","Model Measurements: Height: 1.90, Bust: 94 Waist: 76, Hips: 95","50% Cotton 50% Polyester","Regular Fit: It is a comfortable fit that does not hug the body."],
+      "stars":3,
+      "sizes":["S","M","L","XL","XXL"],
+      "imagesOfPr":["images/p8-type1.jpg","images/p8-type2.jpg","images/p8-type3.jpg","images/p8-type4.jpg","images/p8.jpg"]
+    },
+    {
+      "id":11,
+      "PosterImg":"images/p11.jpg",
+      "Title":"Nike Nk Acdmy Team Çantası",
+      "Category":"Bag",
+      "MainPrice":"147.00",
+      "FromPrice":"429.00",
+      "comments":1,
+      "details":["Laser-perforated wet/dry compartment helps keep gear clean and organized.","Mesh pocket on the side for water bottle storage","Curved shoulder straps and back panel are padded for comfortable carrying."],
+      "stars":5,
+      "sizes":["S","M","L"],
+      "imagesOfPr":["images/p11-type1.jpg","images/p11-type2.jpg","images/p11.jpg"]
+    },
+    {
+      "id":12,
+      "PosterImg":"images/p12.jpg",
+      "Title":"Defacto Regular Fit Basic Chino Pantolon ",
+      "Category":"Men",
+      "MainPrice":"49.99",
+      "FromPrice":"99.99",
+      "comments":4,
+      "details":["The product on the mannequin is size M.","Model Measurements: Height: 1.90, Bust: 94 Waist: 76, Hips: 95","50% Cotton 50% Polyester","Regular Fit: It is a comfortable fit that does not hug the body."],
+      "stars":4,
+      "sizes":["S","M","L","XL","XXL"],
+      "imagesOfPr":["images/p12-type1.jpg","images/p12-type2.jpg","images/p12.jpg","images/p12-type3.jpg"]
+    },
+    {
+      "id":13,
+      "PosterImg":"images/p13.jpg",
+      "Title":"Pasage Oversize Dragon Baskılı Siyah Tshirt",
+      "Category":"Men",
+      "MainPrice":"43.09",
+      "FromPrice":"58.99",
+      "comments":4,
+      "details":["The product on the mannequin is size M.","Model Measurements: Height: 1.90, Bust: 94 Waist: 76, Hips: 95","50% Cotton 50% Polyester","Regular Fit: It is a comfortable fit that does not hug the body."],
+      "stars":2,
+      "sizes":["S","M","L","XL"],
+      "imagesOfPr":["images/p13-type1.jpg","images/p13-type2.jpg","images/p13-type3.jpg","images/p13.jpg"]
+    },
+   
+    {
+      "id":14,
+      "PosterImg":"images/p14.jpg",
+      "Title":"Bianco Lucci Kadın Oversize Şişme Mont",
+      "Category":"Women",
+      "MainPrice":"260.91",
+      "FromPrice":"289.90",
+      "comments":3,
+      "details":["Model's Measurements: Height: 1.75, Bust: 80, Waist: 60, Hips: 88","The product on the mannequin is size S/36.","95% Polyester 5% Elastane, Woven Fabric","Length from Shoulder: 90 cm"],
+      "stars":5,
+      "sizes":["S","M","XXL"],
+      "imagesOfPr":["images/p14-type1.jpg","images/p14-type2.jpg","images/p14-type3.jpg","images/p14-type4.jpg","images/p14.jpg"]
+    },
+    {
+      "id":15,
+      "PosterImg":"images/p15.jpg",
+      "Title":"Dragon Ayakkabix Rennook Erkek Spor Ayakkabı ",
+      "Category":"Shoes",
+      "MainPrice":"199.47",
+      "FromPrice":"327.90",
+      "comments":2,
+      "details":["100% Leather"," Genuine leather nubuck offers natural comfort and durability","Manmade sole"],
+      "stars":4,
+      "sizes":["40","42","45"],
+      "imagesOfPr":["images/p15-type1.jpg","images/p15-type2.jpg","images/p15-type3.jpg","images/p15.jpg"]
+    },
+    {
+      "id":16,
+      "PosterImg":"images/p16.jpg",
+      "Title":"Açık Mavi Çizgili Boyfriend Gömlek",
+      "Category":"Women",
+      "MainPrice":"83.99",
+      "FromPrice":"119.99",
+      "comments":3,
+      "details":["Model's Measurements: Height: 1.75, Bust: 80, Waist: 60, Hips: 88","The product on the mannequin is size S/36.","95% Polyester 5% Elastane, Woven Fabric","Length from Shoulder: 90 cm"],
+      "stars":3,
+      "sizes":["S","M","L","XL","XXL"],
+      "imagesOfPr":["images/p16.jpg","images/p16-type2.jpg","images/p16-type3.jpg","images/p16-type-4.jpg"]
+    },
+    {
+      "id":17,
+      "PosterImg":"images/p17-type2.jpg",
+      "Title":"Erkek Kolej Ceket Kaşe A Nakışlı Bol Kalıp Oversıze",
+      "Category":"Men",
+      "MainPrice":"153.99",
+      "FromPrice":"199.99",
+      "comments":2,
+      "details":["The product on the mannequin is size M.","Model Measurements: Height: 1.90, Bust: 94 Waist: 76, Hips: 95","50% Cotton 50% Polyester","Regular Fit: It is a comfortable fit that does not hug the body."],
+      "stars":4,
+      "sizes":["S","M","L","XL"],
+      "imagesOfPr":["images/p17-type2.jpg","images/p17-type1.jpg","images/p17.jpg","images/p17-type3.jpg"]
+    }
+  
+  ]
+}

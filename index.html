@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div id="Preload">
+      <div class="divider1" aria-hidden="true"></div>
+      <div class="divider2" aria-hidden="true"></div>
+      <p class="loading-text" aria-label="Loading">
+        <span class="letter" aria-hidden="true">L</span>
+        <span class="letter" aria-hidden="true">o</span>
+        <span class="letter" aria-hidden="true">a</span>
+        <span class="letter" aria-hidden="true">d</span>
+        <span class="letter" aria-hidden="true">i</span>
+        <span class="letter" aria-hidden="true">n</span>
+        <span class="letter" aria-hidden="true">g</span>
+      </p>
+    </div>
+    <div class="shadow"></div>
+    <div class="ShopCart-Container">
+      <span class="closeCart"><i class="fas fa-times"></i></span>
+      <h2 class="mb-40">Your Cart</h2>
+      <div class="carts-container">
+        <h3>Your cart is empty</h3>
+      </div>
+      <h3 class="total mt-20">Total: 0</h3>
+      <div class="totalstick"></div>
+      <a href="" class="viewCart">View Cart</a>
+    </div>
+    <header>
+      <div class="wrapper flex j-between align-center">
+        <div class="flex">
+          <a href="#" class="logo">Fashion</a>
+          <ul class="page_links flex">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="category.html?Category=All Products">Shop</a></li>
+            <li><a href="page404.html" class="info">Features</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <ul class="flex nav_icons">
+          <li class="signupbtn"><i class="fas fa-user"></i>
+          </li>
+          <li><i class="fas fa-heart"></i></li>
+          <li class="Shopping-cart">
+            <span class="counter">0</span>
+            <i class="fas fa-shopping-bag"></i>
+          </li>
+          <button class="hamburgerBtn"><i class="fa-solid fa-bars"></i></button>
+        </ul>
+      </div>
+    </header>
+
+    <div class="signUpForm">
+      <span class="closeForm">&times;</span>
+        <div class="ribbon">
+         
+         <span>Welcome to Fashion
+           <div class="ribbonSwiper">&nbsp;</div>
+         </span>
+       </div>
+     
+    <div class="FormText">
+     <h1 class="mb-24">Sign Up</h1>
+     <div class="NameInpContainer">
+       <input class="nameInput" type="text" name="" placeholder="User's Name" id="Name">
+       <img src="images/FormIcons/user2.png" alt="">
+     </div>
+     <div class="LetterInpContainer">
+       <input class="LetterInput" type="email" name="" placeholder="Email" id="email">
+       <img src="images/FormIcons/letter2.png" alt="">
+     </div>
+     <div class="PasswordInpContainer">
+       <input class="PasswordInput" type="password" placeholder="Password" name="" id="Password">
+       <img src="images/FormIcons/lock2.png" alt="">
+      <span class="Eye"><i class="fas fa-eye fa-eye-slash"></i></span>
+     </div>
+    <label for="AgreeTerms" class="checkboxLabel mb-20">
+      <input type="checkbox" name="" class="checkbox" id="AgreeTerms">
+      I read and agree to &nbsp;<a class="FormLinks" href="https://gwbcenter.imgix.net/Publications/Articles/2020/04/scales-of-justice.jpg?fit=crop&crop=faces&w=1200&h=650">Terms & Conditions</a>
+    </label>
+    <button class="btn-Account">Create Account
+        <div class="ribbonSwiper">&nbsp;</div>
+    </button>
+    <span class="AlreadyHave">Already have an account ? <a class="FormLinks" href="#"> Sign in</a></span>
+    </div>
+     </div>
+    <div class="sidebar">
+      <span class="closeSidebar">
+        <i class="fas fa-times"></i>
+      </span>
+      <div>
+        <ul class="page_links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="category.html?Category=All Products">Shop</a></li>
+          <li><a href="page404.html" class="info">Features</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <section class="Head_section owl-carousel"></section>
+
+    <section class="productSection py-96">
+      <div class="wrapper">
+        <div class="categories flex j-between">
+          <a
+            href="category.html?Category=Women"
+            class="category-box"
+            data-aos="fade-right"
+          >
+            <img src="images/banner1.webp" alt="" />
+            <span class="c-box-text">
+              <h2 class="box-title">Women</h2>
+              <p>Spring 2022</p>
+              <button class="category-btn">SHOP NOW</button>
+              <div class="stick"></div>
+            </span>
+          </a>
+          <a
+            href="category.html?Category=Men"
+            class="category-box"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
+            <img src="images/banner2.webp" alt="" />
+            <span class="c-box-text">
+              <h2 class="box-title">Men</h2>
+              <p>Spring 2022</p>
+              <button class="category-btn">SHOP NOW</button>
+              <div class="stick"></div>
+            </span>
+          </a>
+          <a
+            href="category.html?Category=Watches"
+            class="category-box"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
+            <img src="images/banner3.webp" alt="" />
+            <span class="c-box-text">
+              <h2 class="box-title">Accessories</h2>
+              <p>New Trend</p>
+              <button class="category-btn">SHOP NOW</button>
+              <div class="stick"></div>
+            </span>
+          </a>
+        </div>
+        <div class="products-overview py-72">
+          <h1 class="sectionTitle">PRODUCT OVERVIEW</h1>
+          <div class="flex j-between">
+            <ul class="flex overview-links">
+              <li class="hov-active">All Products</li>
+              <li>Women</li>
+              <li>Men</li>
+              <li>Bag</li>
+              <li>Shoes</li>
+              <li>Watches</li>
+            </ul>
+            <ul class="overview-buttons flex">
+              <li id="filterbtn"><i class="fas fa-filter"></i>Filter</li>
+              <li id="searchbtn"><i class="fas fa-search"></i>Search</li>
+            </ul>
+          </div>
+          <div class="filter-modal">
+            <ul class="flex j-between">
+              <li class="f-modal-column">
+                <h3>Sort By</h3>
+                <ul class="sub-filters">
+                  <li class="activeSort"><a href="#">Default</a></li>
+                  <li><a href="#"> Popularity </a></li>
+                  <li><a href="#"> Average rating </a></li>
+                  <li><a href="#"> Newness </a></li>
+                  <li><a href="#"> Price:Low to High </a></li>
+                  <li><a href="#"> Price:High to Low </a></li>
+                </ul>
+              </li>
+
+              <li class="f-modal-column">
+                <h3>Price</h3>
+                <ul class="sub-filters">
+                  <li><a href="#">All</a></li>
+                  <li><a href="#">$0.00 - $50.00</a></li>
+                  <li class="activePrice"><a href="#">$50.00 - $100.00</a></li>
+                  <li><a href="#">$100.00 - $150.00</a></li>
+                  <li><a href="#">$150.00 - $200.00</a></li>
+                  <li><a href="#">$200.00+</a></li>
+                </ul>
+              </li>
+
+              <li class="f-modal-column">
+                <h3>Color</h3>
+                <ul class="sub-filters">
+                  <li class="colors">
+                    <div></div>
+                    <a href="#">Black</a>
+                  </li>
+                  <li class="colors">
+                    <div></div>
+                    <a href="#">Blue</a>
+                  </li>
+                  <li class="colors">
+                    <div></div>
+                    <a href="#">Grey</a>
+                  </li>
+                  <li class="colors activeColor">
+                    <div></div>
+                    <a href="#">Green</a>
+                  </li>
+                  <li class="colors">
+                    <div></div>
+                    <a href="#">Red</a>
+                  </li>
+                  <li class="colors">
+                    <div></div>
+                    <a href="#">White</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="f-modal-column">
+                <h3>Tags</h3>
+                <ul class="tags flex">
+                  <li class="activeTag"><a href="#">Fashion</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                  <li><a href="#">Denim</a></li>
+                  <li><a href="#">Streetstyle</a></li>
+                  <li><a href="#">Crafts</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="filter-search">
+            <input
+              type="search"
+              name=""
+              placeholder="Search"
+              id="searchInput"
+            />
+            <button><i class="fas fa-search"></i></button>
+          </div>
+
+          <div class="products py-72 flex"></div>
+        </div>
+      </div>
+
+      <div class="product-modal">
+        <div class="product-modal-inner flex"></div>
+      </div>
+    </section>
+
+    <section class="bestProduct-area">
+      <div class="wrapper">
+        <div class="bestArea">
+          <img
+            class="bestArea-Mainimg"
+            data-aos="fade-right"
+            data-aos-delay="300"
+            src="images/s1.png"
+            alt=""
+          />
+          <img class="bestArea-img" src="images/s1-1.png" alt="" />
+          <div class="Best-area-text">
+            <h1>Find The Best Product from Our Shop</h1>
+            <p>Designers who are interesten creating state of the fashion.</p>
+            <a class="btn-shop mt-20" href="category.html?Category=Men"
+              >SHOP NOW</a
+            >
+          </div>
+        </div>
+
+        <div class="bestCollection py-96 mt-30 flex j-between">
+          <div class="bestCollection-text" data-aos="fade-right">
+            <h1>Best Collection of This Month</h1>
+            <p>Designers who are interesten creation of fashion.</p>
+            <a href="category.html?Category=Men" class="btn-shop mt-20"
+              >SHOP NOW</a
+            >
+            <img src="images/b1-2.png" alt="" />
+          </div>
+          <img
+            data-aos="zoom-out-right"
+            data-aos-delay="250"
+            src="images/b1.png"
+            alt=""
+          />
+          <ul class="bestCollectionList py-72" data-aos="fade-left">
+            <li>
+              <span> Menz Winter T-shirt</span>
+              <img src="images/b2.png" alt="" />
+            </li>
+            <li>
+              <span> Menz Winter Trousers</span>
+              <img src="images/b2-1.png" alt="" />
+            </li>
+            <li>
+              <span> Menz Winter Jacket</span>
+              <img src="images/b2-3.png" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="services-section py-96">
+      <div class="wrapper flex services">
+        <div class="service-box">
+          <img src="images/services1.svg" alt="" />
+          <h3 class="mt-20">Fast & Free Delivery</h3>
+          <p>Free delivery on all orders</p>
+        </div>
+        <div class="service-box">
+          <img src="images/services2.svg" alt="" />
+          <h3 class="mt-20">Secure Payment</h3>
+          <p>Free delivery on all orders</p>
+        </div>
+        <div class="service-box">
+          <img src="images/services3.svg" alt="" />
+          <h3 class="mt-20">Money Back Guarantee</h3>
+          <p>Free delivery on all orders</p>
+        </div>
+        <div class="service-box">
+          <img src="images/services4.svg" alt="" />
+          <h3 class="mt-20">Online Support</h3>
+          <p>Free delivery on all orders</p>
+        </div>
+      </div>
+    </section>
+    <footer class="py-72">
+      <div class="wrapper flex">
+        <div class="footer-column">
+          <h1 class="Footer-heading">Fashion</h1>
+          <ul class="footerUl mt-30">
+            <li>
+              The wise man therefore always holds selection. The wise man
+              therefore always rejects pleasures to secure other greater
+            </li>
+            <li class="mt-20">
+              <i class="far fa-envelope"></i
+              ><a href="mailto:Fashion@gmail.com">Fashion@gmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-phone-alt"></i
+              ><a href="tel:+994514084879">(+994)51 408 48 79</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>CATEGORIES</h3>
+          <ul class="footerUl mt-30">
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Bag</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Watches</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>NEWSLETTER</h3>
+          <div class="F-input-group mt-30">
+            <input type="text" name="" id="Footer-subs" />
+            <button class="Subscribe">Subscribe</button>
+          </div>
+          <ul class="footer-icons flex mt-20">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"
+      integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

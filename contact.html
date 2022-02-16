@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+  <div id="Preload">
+    <div class="divider1" aria-hidden="true"></div>
+    <div class="divider2" aria-hidden="true"></div>
+    <p class="loading-text" aria-label="Loading">
+      <span class="letter" aria-hidden="true">L</span>
+      <span class="letter" aria-hidden="true">o</span>
+      <span class="letter" aria-hidden="true">a</span>
+      <span class="letter" aria-hidden="true">d</span>
+      <span class="letter" aria-hidden="true">i</span>
+      <span class="letter" aria-hidden="true">n</span>
+      <span class="letter" aria-hidden="true">g</span>
+    </p>
+  </div>
+  <div class="shadow"></div>
+  <div class="ShopCart-Container">
+    <span class="closeCart"><i class="fas fa-times"></i></span>
+    <h2 class="mb-40">Your Cart</h2>
+        <div class="carts-container">
+          <h3>Your cart is empty</h3>
+        </div>
+        <h3 class="total mt-20">Total: 0</h3>
+        <div class="totalstick"></div>
+        <a href="" class="viewCart">View Cart</a>
+
+  </div>
+  <header>
+    <div class="wrapper flex j-between align-center">
+      <div class="flex">
+        <a href="index.html" class="logo">Fashion</a>
+      <ul class="page_links flex">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html?Category=All Products">Shop</a></li>
+        <li><a href="page404.html"  class="info">Features</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </div>
+      <ul class="flex nav_icons">
+        <li class="signupbtn"><i class="fas fa-user"></i></li>
+        <li><i class="fas fa-heart"></i></li>
+        <li class="Shopping-cart">
+          <span class="counter">0</span>
+          <i class="fas fa-shopping-bag"></i></li>
+      <button class="hamburgerBtn"><i class="fa-solid fa-bars"></i></button>
+      </ul>
+    </div>
+    </header>
+
+    <div class="signUpForm">
+      <span class="closeForm">&times;</span>
+        <div class="ribbon">
+         
+         <span>Welcome to Fashion
+           <div class="ribbonSwiper">&nbsp;</div>
+         </span>
+       </div>
+     
+    <div class="FormText">
+     <h1 class="mb-24">Sign Up</h1>
+     <div class="NameInpContainer">
+       <input class="nameInput" type="text" name="" placeholder="User's Name" id="Name">
+       <img src="images/FormIcons/user2.png" alt="">
+     </div>
+     <div class="LetterInpContainer">
+       <input class="LetterInput" type="email" name="" placeholder="Email" id="email">
+       <img src="images/FormIcons/letter2.png" alt="">
+     </div>
+     <div class="PasswordInpContainer">
+       <input class="PasswordInput" type="password" placeholder="Password" name="" id="Password">
+       <img src="images/FormIcons/lock2.png" alt="">
+      <span class="Eye"><i class="fas fa-eye fa-eye-slash"></i></span>
+     </div>
+    <label for="AgreeTerms" class="checkboxLabel mb-20">
+      <input type="checkbox" name="" class="checkbox" id="AgreeTerms">
+      I read and agree to &nbsp;<a class="FormLinks" href="https://gwbcenter.imgix.net/Publications/Articles/2020/04/scales-of-justice.jpg?fit=crop&crop=faces&w=1200&h=650">Terms & Conditions</a>
+    </label>
+    <button class="btn-Account">Create Account
+        <div class="ribbonSwiper">&nbsp;</div>
+    </button>
+    <span class="AlreadyHave">Already have an account ? <a class="FormLinks" href="#"> Sign in</a></span>
+    </div>
+     </div> 
+    
+    <div class="sidebar">
+      <span class="closeSidebar">
+        <i class="fas fa-times"></i>
+      </span>
+      <div>
+        <ul class="page_links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="category.html?Category=All Products">Shop</a></li>
+          <li><a href="page404.html" class="info">Features</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+  <section class="contact-hero py-96">
+    <h1 class="titleforSection">Contact Us</h1>
+  </section>
+ 
+ 
+  <section class="py-72" style="background-color: #f5f5f5;">
+    <div class="wrapper">
+      <!-- #f5f3f3; -->
+        <div class="Contact-container flex ">
+          <div class="contact-image">
+            <img src="images/contact/phone.gif" alt="">
+          </div>
+          <div class="contact-text">
+              <h2 class="mb-40">Information</h2>
+              <ul class="contact-information">
+                <li><span><i class="fa-solid fa-location-dot"></i></span> 
+                    <div class="sub-inform">
+                      <h3>Location:</h3>
+                      <p class="sub-inform">Gənclik Mall, Fətəli Xan Xoyski, Bakı</p>
+                    </div>
+                 </li>
+                <li>
+                  <span><i class="fa-solid fa-clock"></i></span> 
+                    <div>
+                      <h3>Open Hours:</h3>
+                     
+                       <p>Sunday-Friday:</p>
+                       <p>09:00 - 18:00</p>
+                     
+                    </div>
+                 </li>
+                 
+                 <li><span><i class="fa-solid fa-envelope"></i></span> 
+                  <div>
+                    <h3>Email:</h3>
+                    <p>t_ulvi@mail.ru</p>
+                  </div>
+               </li>
+
+                 <li><span><i class="fa-solid fa-phone"></i></span> 
+                  <div>
+                    <h3>Call:</h3>
+                    <a href="tel:+994514084879">(+994)51-408-48-79</a>
+                  </div>
+               </li>
+
+              </ul>
+          </div>
+        </div>
+
+        <div class="flex py-72">
+          <div class="contact-comment ">
+            <h2>Leave A Comment</h2>
+            <div class="contact-form">
+              <div class="contact-input-groups">
+                <input type="text" placeholder="Your Name" name="" id="">  
+                <input type="text" placeholder="Your Email" name="" id="">
+              </div>
+              <textarea id="contact-text" placeholder="Describe yourself here..." ></textarea>
+            </div>
+            <a href="#" class="messageBtn">Send Message</a>
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.452663158461!2d49.85571399791438!3d40.400702150458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d5d5a2c1005%3A0x5ede1cc1418ccc54!2sG%C9%99nclik%20Mall!5e0!3m2!1saz!2s!4v1644512167478!5m2!1saz!2s"   style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+          </div>
+        </div>
+        
+    </div>
+  </section>
+
+
+
+
+  <section class="services-section py-96">
+    <div class="wrapper flex services">
+      <div class="service-box">
+        <img src="images/services1.svg" alt="">
+        <h3 class="mt-20">Fast & Free Delivery</h3>
+        <p>Free delivery on all orders</p>
+      </div>
+      <div class="service-box">
+        <img src="images/services2.svg" alt="">
+        <h3 class="mt-20">Secure Payment</h3>
+        <p>Free delivery on all orders</p>
+      </div>
+      <div class="service-box">
+        <img src="images/services3.svg" alt="">
+        <h3 class="mt-20">Money Back Guarantee</h3>
+        <p>Free delivery on all orders</p>
+      </div>
+      <div class="service-box">
+        <img src="images/services4.svg" alt="">
+        <h3 class="mt-20">Online Support</h3>
+        <p>Free delivery on all orders</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-72">
+    <div class="wrapper flex">
+      <div class="footer-column">
+        <h1 class="Footer-heading">Fashion</h1>
+       <ul class="footerUl mt-30">
+        <li> The wise man therefore always holds selection. The wise man therefore
+          always rejects pleasures to secure other greater</li>
+        <li class="mt-20"><i class="far fa-envelope"></i><a href="mailto:Fashion@gmail.com">Fashion@gmail.com</a></li>
+        <li><i class="fas fa-phone-alt"></i><a href="tel:+994514084879">(+994)51 408 48 79</a></li>
+       </ul>
+      </div>
+      <div class="footer-column">
+        <h3>CATEGORIES</h3>
+       <ul class="footerUl mt-30">
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Bag</a></li>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Watches</a></li>
+       </ul>
+      </div>
+      <div class="footer-column">
+        <h3>NEWSLETTER</h3>
+      <div class="F-input-group mt-30">
+        <input type="text" name="" id="Footer-subs">
+        <button class="Subscribe">Subscribe</button>
+      </div>
+      <ul class="footer-icons flex mt-20">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+      </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>   
+  <script src="js/detail.js"></script>
+ 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
